@@ -5,7 +5,7 @@
 # Aplikasi Kasir Restoran 
 Kasir Resto adalah Restourant Management yang sebuah Website yang bisa managemnet  sebuah restoran dari mulai dari pelanggan bisa melakukan order, dan bertransaksi dengan kasir yang sudah diatur sistemnya.
 
-sistem ini dibuat dengan menggunakan framework <a href="https://laravel.com/">Laravel</a> dan <a href="https://www.mysql.com/">MySQL</a>
+Sistem ini dibuat dengan menggunakan framework <a href="https://laravel.com/">Laravel</a> dan <a href="https://www.mysql.com/">MySQL</a>
 
 ## 🧑 Pemilik
 
@@ -16,7 +16,7 @@ sistem ini dibuat dengan menggunakan framework <a href="https://laravel.com/">La
 | Kampus  | Universitas Amikom Yogyakarta |
 
 
-## 📌 Fitur dari Ngapak Resto
+## 📌 Fitur dari Kasir Resto
 
 | No  | Fitur                                                      |
 |-----|------------------------------------------------------------|
@@ -30,15 +30,15 @@ sistem ini dibuat dengan menggunakan framework <a href="https://laravel.com/">La
 |  8  | Chart/Grafik Pendapatan mingguan dengan library Chart.JS.  |
 |  9  | 5 Hak Akses (Admin, Kasir, Owner, Waiter, Pelanggan)       |
 | 10  | User Settings                                              |
-| 11  | Dan lain-lain                                              |
 
 ------------
 ## 💻 Panduan Instalasi Project
 
 1. **Clone Repository**
 ```bash
+git clone https://github.com/bagussatoto/Kasir-Restoran-laravel-8.git 
 ```
-git clone 
+
 ```
 cd AplikasiKasirRestoran
 composer install
@@ -57,8 +57,10 @@ DB_PASSWORD=
 ```
 Project ini tidak menggunakan fitur migration, jadi kita harus mengimport database terlebih dahulu**
 ```
+```
 mysql -u root -p
 create database laravel;
+```
 
 4. **Jalankan bash**
 ```bash
