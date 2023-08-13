@@ -12,7 +12,7 @@
         "barryvdh/laravel-dompdf": "^0.9.0",
         "fideloper/proxy": "^4.0",
         "laravel/framework": "5.8.*",
-        "laravel/tinker": "^1.0",
+        "laravel/tinker": "^2.0",
         "maatwebsite/excel": "^3.1",
         "uxweb/sweet-alert": "^2.0"
     },
